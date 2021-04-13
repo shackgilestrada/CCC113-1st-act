@@ -1,18 +1,3 @@
-Write a program ask the user two integers then add, multiple, divide and subtract them
-	Expected Output 1:
-	Input any 2 integer: 16 4
-	ADD = 20
-	MUL = 64
-	DIV = 4
-	SUB =  12
----------------------------------------------------------
-	Expected Output 2:
-	Input any 2 integer: 15 10
-	ADD = 25
-	MUL = 150
-	DIV = 1.5
-	SUB =  5
-	*/
 
 #include <stdio.h>
 int main()
