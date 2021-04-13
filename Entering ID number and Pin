@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int ID=2011, pin=1234;
+    printf("Enter your ID=");
+    scanf("%d",&ID);
+    switch(ID)
+    {
+    case 2011:
+    printf("Enter your pin=");
+    scanf("%d", &pin);
+    switch(pin)
+    {
+    case 1234:
+    printf("You have successfully logged in");
+    break;
+    default:
+    printf("Invalid pin");
+    break;
+    }
+    break;
+    default:
+    printf("Invalid ID");
+    break;
+    }
+    return (0);
+}
